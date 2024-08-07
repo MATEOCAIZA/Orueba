@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar Registro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="eliminar.php" method="POST">
+            <h2>Eliminar Registro</h2>
+            <p>Por favor, ingresa el nombre del registro que deseas eliminar</p>
+
+            <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Nombre" required>
+                <img class="input-icon" src="images/name.svg" alt="">
+            </div>
+            <br>
+            <button type="submit" name="delete">Eliminar</button>
+
+            <div class="register-form">
+                <a href="registrarse.html"><button type="button">Registrarse</button></a>
+                <a href="login.html"><button type="button">Iniciar Sesión</button></a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

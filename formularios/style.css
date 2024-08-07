@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-bottom: 15px; /* Añadido para el margen inferior entre formularios */
+}
+
+.register-form {
+    width: 300px; /* Asegura que tenga el mismo ancho que el formulario */
+    text-align: center; /* Centra el botón dentro del div */
+    margin-top: 15px; /* Añadido para espacio adicional si es necesario */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.input-wrapper {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+h3.success {
+    color: green;
+}
+
+h3.error {
+    color: red;
+}
+
+p.error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
